@@ -67,6 +67,14 @@
     E__NOTE(_A6 ),     \
     M__NOTE(_CS7, 20),
 
+#define PORTLAND \
+    Q__NOTE(_GS5),  Q__NOTE(_FS5),  Q__NOTE(_GS5),  Q__NOTE(_FS5),  \
+    QD_NOTE(_GS5),  Q__NOTE(_FS5),  Q__NOTE(_GS5),  QD_NOTE(_CS5),  \
+    E__NOTE(_REST), QD_NOTE(_CS5),  E__NOTE(_REST), H__NOTE(_REST), \
+    Q__NOTE(_DS5),  Q__NOTE(_E5),   Q__NOTE(_GS5),  Q__NOTE(_FS5),  \
+    QD_NOTE(_GS5),  E__NOTE(_REST), Q__NOTE(_FS5),  Q__NOTE(_GS5),  \
+    QD_NOTE(_CS5),  E__NOTE(_REST), QD_NOTE(_CS5),
+
 #define QWERTY_SOUND \
     E__NOTE(_GS6 ),  \
     E__NOTE(_A6  ),  \
